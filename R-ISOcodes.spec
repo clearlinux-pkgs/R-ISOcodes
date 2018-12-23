@@ -4,7 +4,7 @@
 #
 Name     : R-ISOcodes
 Version  : 2018.06.29
-Release  : 3
+Release  : 4
 URL      : https://cran.r-project.org/src/contrib/ISOcodes_2018.06.29.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/ISOcodes_2018.06.29.tar.gz
 Summary  : Selected ISO Codes
