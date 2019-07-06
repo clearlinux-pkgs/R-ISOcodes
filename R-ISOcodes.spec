@@ -4,7 +4,7 @@
 #
 Name     : R-ISOcodes
 Version  : 2019.04.22
-Release  : 13
+Release  : 14
 URL      : https://cran.r-project.org/src/contrib/ISOcodes_2019.04.22.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/ISOcodes_2019.04.22.tar.gz
 Summary  : Selected ISO Codes
