@@ -4,15 +4,15 @@
 #
 Name     : R-ISOcodes
 Version  : 2019.04.22
-Release  : 15
+Release  : 16
 URL      : https://cran.r-project.org/src/contrib/ISOcodes_2019.04.22.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/ISOcodes_2019.04.22.tar.gz
 Summary  : Selected ISO Codes
 Group    : Development/Tools
 License  : GPL-2.0
-Requires: R-Unicode
 BuildRequires : R-Unicode
 BuildRequires : buildreq-R
+BuildRequires : util-linux
 
 %description
 Provides ISO 639 language codes, ISO 3166 territory codes, ISO 4217
@@ -26,13 +26,13 @@ Provides ISO 639 language codes, ISO 3166 territory codes, ISO 4217
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
-export LANG=C
-export SOURCE_DATE_EPOCH=1556294056
+export LANG=C.UTF-8
+export SOURCE_DATE_EPOCH=1571848491
 
 %install
-export SOURCE_DATE_EPOCH=1556294056
+export SOURCE_DATE_EPOCH=1571848491
 rm -rf %{buildroot}
-export LANG=C
+export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
 export FCFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
 export FFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
@@ -61,7 +61,7 @@ R CMD INSTALL --preclean --install-tests --built-timestamp=${SOURCE_DATE_EPOCH} 
 cp ~/.stash/* %{buildroot}/usr/lib64/R/library/*/libs/ || :
 %{__rm} -rf %{buildroot}%{_datadir}/R/library/R.css
 %check
-export LANG=C
+export LANG=C.UTF-8
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
