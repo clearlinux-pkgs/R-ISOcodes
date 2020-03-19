@@ -4,7 +4,7 @@
 #
 Name     : R-ISOcodes
 Version  : 2020.03.16
-Release  : 20
+Release  : 21
 URL      : https://cran.r-project.org/src/contrib/ISOcodes_2020.03.16.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/ISOcodes_2020.03.16.tar.gz
 Summary  : Selected ISO Codes
