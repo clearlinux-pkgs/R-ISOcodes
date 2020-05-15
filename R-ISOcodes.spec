@@ -4,14 +4,12 @@
 #
 Name     : R-ISOcodes
 Version  : 2020.03.16
-Release  : 21
+Release  : 22
 URL      : https://cran.r-project.org/src/contrib/ISOcodes_2020.03.16.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/ISOcodes_2020.03.16.tar.gz
 Summary  : Selected ISO Codes
 Group    : Development/Tools
 License  : GPL-2.0
-Requires: R-Unicode
-BuildRequires : R-Unicode
 BuildRequires : buildreq-R
 
 %description
@@ -21,21 +19,22 @@ Provides ISO 639 language codes, ISO 3166 territory codes, ISO 4217
 
 %prep
 %setup -q -c -n ISOcodes
+cd %{_builddir}/ISOcodes
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1584462016
+export SOURCE_DATE_EPOCH=1589572517
 
 %install
-export SOURCE_DATE_EPOCH=1584462016
+export SOURCE_DATE_EPOCH=1589572517
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
-export FCFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
-export FFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
+export FCFLAGS="$FFLAGS -O3 -flto -fno-semantic-interposition "
+export FFLAGS="$FFLAGS -O3 -flto -fno-semantic-interposition "
 export CXXFLAGS="$CXXFLAGS -O3 -flto -fno-semantic-interposition "
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
