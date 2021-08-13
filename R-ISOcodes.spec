@@ -4,7 +4,7 @@
 #
 Name     : R-ISOcodes
 Version  : 2021.02.24
-Release  : 32
+Release  : 33
 URL      : https://cran.r-project.org/src/contrib/ISOcodes_2021.02.24.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/ISOcodes_2021.02.24.tar.gz
 Summary  : Selected ISO Codes
