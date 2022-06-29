@@ -4,7 +4,7 @@
 #
 Name     : R-ISOcodes
 Version  : 2022.01.10
-Release  : 40
+Release  : 41
 URL      : https://cran.r-project.org/src/contrib/ISOcodes_2022.01.10.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/ISOcodes_2022.01.10.tar.gz
 Summary  : Selected ISO Codes
