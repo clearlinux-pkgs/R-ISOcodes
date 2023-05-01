@@ -4,7 +4,7 @@
 #
 Name     : R-ISOcodes
 Version  : 2022.09.29
-Release  : 45
+Release  : 46
 URL      : https://cran.r-project.org/src/contrib/ISOcodes_2022.09.29.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/ISOcodes_2022.09.29.tar.gz
 Summary  : Selected ISO Codes
