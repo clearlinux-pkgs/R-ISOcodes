@@ -7,7 +7,7 @@
 #
 Name     : R-ISOcodes
 Version  : 2024.02.12
-Release  : 50
+Release  : 51
 URL      : https://cran.r-project.org/src/contrib/ISOcodes_2024.02.12.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/ISOcodes_2024.02.12.tar.gz
 Summary  : Selected ISO Codes
