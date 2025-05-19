@@ -1,5 +1,5 @@
 PKG_NAME := R-ISOcodes
-URL = https://cran.r-project.org/src/contrib/ISOcodes_2024.02.12.tar.gz
+URL = https://ftp.osuosl.org/pub/cran/src/contrib/ISOcodes_2025.05.18.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
